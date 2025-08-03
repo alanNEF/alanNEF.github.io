@@ -35,7 +35,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="bg-[#212121] text-white min-h-screen">
+    <main className="bg-[#0f172a] text-white min-h-screen">
       <Navigation />
       <br />
       <Hero />
