@@ -16,8 +16,9 @@ export default function Navigation() {
       <ul className="nav-links">
         <li><a href="#intro">HOME</a></li>
         <li><a href="#about-section">ABOUT</a></li>
-        <li><a href="#projects">EXPLORER</a></li>
-        <li><a href="#contact-me">RESUME</a></li>
+        <li><a href="#experience-section">EXPERIENCE</a></li>
+        <li><a href="#projects-section">PROJECTS</a></li>
+        <li><a href="#contact-me">CONTACT</a></li>
       </ul>
 
       {/* Social Media Icons */}

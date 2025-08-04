@@ -18,13 +18,13 @@ export default function Hero() {
       <div className="skill-connector bottom-right"></div>
 
       {/* Main Content */}
-      <div className="hero-content">
+      <div className="hero-content fade-in-up">
         <Image
           src="/assets/imgs/DSC03989.jpg"
           alt="Alan Achilles"
           width={200}
           height={200}
-          className="my-photo"
+          className="my-photo scale-in"
         />
 
         <div id="intro-text">
@@ -39,7 +39,7 @@ export default function Hero() {
           </button>
 
           {/* Social Links */}
-          <div id="intro-svgs">
+          <div id="intro-svgs" className="stagger-children">
             <a id="linkedin-svg" href="https://www.linkedin.com/in/alan-achilles-1ba6a1246/" target="_blank" rel="noopener noreferrer">
               <Image
                 src="/assets/SVGs/iconmonstr-linkedin-3.svg"
