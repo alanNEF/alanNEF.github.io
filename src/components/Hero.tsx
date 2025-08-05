@@ -34,7 +34,7 @@ export default function Hero() {
           <p className="type-2">Developer, Student, and Entrepreneur</p>
 
           {/* Call to Action Button */}
-          <button className="cta-button">
+          <button className="cta-button" onClick={() => window.location.href = '#contact-me'}>
             Connect With Me
           </button>
 

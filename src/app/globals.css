@@ -501,6 +501,7 @@ li>a:focus::after {
 /* Section header styling */
 .section-header {
   margin-bottom: 2rem;
+  text-align: left;
 }
 
 .section-header h1 {
@@ -511,6 +512,7 @@ li>a:focus::after {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin: 0 0 1rem 0;
+  text-align: left;
 }
 
 .section-underline {
@@ -518,11 +520,13 @@ li>a:focus::after {
   height: 3px;
   background: linear-gradient(90deg, #3b82f6, #60a5fa);
   border-radius: 2px;
+  margin-left: 0;
 }
 
 /* About description */
 .about-description {
   margin-bottom: 2.5rem;
+  text-align: left;
 }
 
 .about-description p {
@@ -1328,15 +1332,8 @@ textarea {
     font-size: 1.25rem;
   }
 
-  /* Skill labels responsive */
-  .skill-label {
-    position: static;
-    margin: 0.5rem;
-    display: inline-block;
-    font-size: 0.75rem;
-    padding: 0.4rem 0.8rem;
-  }
-
+  /* Hide skill labels and connectors on mobile */
+  .skill-label,
   .skill-connector {
     display: none;
   }
@@ -1382,6 +1379,89 @@ textarea {
     font-size: 0.8rem;
   }
 
+  /* Mobile-specific About section improvements */
+  #about-section {
+    padding: 2rem 1rem;
+  }
+
+  .about-content {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: left;
+    padding: 0 1rem;
+  }
+
+  .about-text {
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+
+  .about-description p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  /* Keep section header left-aligned on mobile */
+  .section-header {
+    text-align: left;
+  }
+
+  .section-header h1 {
+    text-align: left;
+  }
+
+  .section-underline {
+    margin-left: 0;
+  }
+
+  /* Hide image on mobile */
+  .about-image-container {
+    display: none;
+  }
+
+  /* Move description text to top after header */
+  .about-description {
+    margin-top: 1rem;
+  }
+
+  /* Move skills section to bottom */
+  .skills-section {
+    margin-top: 2rem;
+  }
+
+  /* Smaller and better aligned technology tabs */
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .skill-item {
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+  }
+
+  .skill-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .skill-item span:last-child {
+    display: none;
+  }
+
+  .skills-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
   /* Experience section responsive */
   .experience-item {
     padding: 1.5rem;
@@ -1408,6 +1488,65 @@ textarea {
     line-height: 1.6;
   }
 
+  /* Mobile-specific Experience section improvements */
+  #experience-section {
+    padding: 2rem 1rem;
+  }
+
+  .experience-content {
+    padding: 0 1rem;
+  }
+
+  /* Mobile job header formatting */
+  .job-header {
+    flex-direction: column !important;
+    gap: 0.5rem;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .job-info {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    width: 100%;
+  }
+
+  .job-meta {
+    order: 2;
+    text-align: left;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    width: 100%;
+  }
+
+  .job-title {
+    font-size: 1.25rem;
+    margin: 0;
+    display: block;
+  }
+
+  .company-name {
+    font-size: 1rem;
+    margin: 0;
+    display: block;
+  }
+
+  .job-dates {
+    font-size: 0.9rem;
+    margin: 0;
+    display: block;
+  }
+
+  .job-location {
+    font-size: 0.8rem;
+    margin: 0;
+    display: block;
+  }
+
   /* Projects section responsive */
   .project-item {
     padding: 1.25rem;
@@ -1431,6 +1570,15 @@ textarea {
     line-height: 1.5;
   }
 
+  /* Mobile-specific Projects section improvements */
+  #projects-section {
+    padding: 2rem 1rem;
+  }
+
+  .projects-content {
+    padding: 0 1rem;
+  }
+
   /* Contact section responsive */
   #contact-form {
     padding: 1.25rem;
@@ -1444,6 +1592,11 @@ textarea {
   .submit-btn {
     font-size: 0.9rem;
     padding: 0.6rem 1.5rem;
+  }
+
+  /* Mobile-specific Contact section improvements */
+  #contact-me {
+    padding: 2rem 1rem;
   }
 
   #contact-body {
@@ -1530,22 +1683,24 @@ textarea {
     font-size: 1.1rem;
   }
 
+  /* Maintain 2x4 grid for technologies on small screens */
   .skills-grid {
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
   }
 
   .skill-item {
-    padding: 0.5rem;
+    padding: 0.75rem;
+    min-height: 70px;
   }
 
   .skill-icon {
-    width: 18px;
-    height: 18px;
+    width: 28px;
+    height: 28px;
   }
 
   .skill-item span:last-child {
-    font-size: 0.8rem;
+    display: none;
   }
 
   /* Experience section responsive */
