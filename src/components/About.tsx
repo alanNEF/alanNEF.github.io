@@ -14,14 +14,11 @@ export default function About() {
 
           <div className="about-description">
             <p>
-              I'm a passionate software developer and student at the University of Massachusetts Amherst,
-              pursuing a degree in Computer Science. I love building innovative solutions that solve real-world problems
-              and create meaningful impact.
-            </p>
-            <p>
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-              or working on entrepreneurial ventures. I believe in continuous learning and pushing the boundaries
-              of what's possible with technology.
+              Alan Achilles is a dedicated Computer Science student at the University of Massachusetts Amherst,
+              specializing in machine learning and web development. Passionate about leveraging technology to
+              drive innovation, Alan is actively seeking opportunities for collaboration on projects, internships, and research.
+              If you're interested in collaborating or have opportunities to discuss, please reach out—Alan is eager to contribute,
+              grow, and connect with others in the field.
             </p>
           </div>
 
