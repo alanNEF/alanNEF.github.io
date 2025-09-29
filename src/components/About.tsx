@@ -17,7 +17,7 @@ export default function About() {
               Alan Achilles is a dedicated Computer Science student at the University of Massachusetts Amherst,
               specializing in machine learning and web development. Passionate about leveraging technology to
               drive innovation, Alan is actively seeking opportunities for collaboration on projects, internships, and research.
-              If you're interested in collaborating or have opportunities to discuss, please reach out—Alan is eager to contribute,
+              If you&apos;re interested in collaborating or have opportunities to discuss, please reach out—Alan is eager to contribute,
               grow, and connect with others in the field.
             </p>
           </div>

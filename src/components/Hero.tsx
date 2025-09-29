@@ -29,7 +29,7 @@ export default function Hero() {
 
         <div id="intro-text">
           <div className="type-container">
-            <h1 className="type">Hi, I'm Alan!</h1>
+            <h1 className="type">Hi, I&apos;m Alan!</h1>
           </div>
           <p className="type-2">Developer, Student, and Entrepreneur</p>
 

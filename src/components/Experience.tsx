@@ -25,7 +25,7 @@ export default function Experience() {
                             </div>
                         </div>
                         <ul className="job-responsibilities">
-                            <li>Delivered production-ready platform that contributed to the startup's successful acquisition.</li>
+                            <li>Delivered production-ready platform that contributed to the startup&apos;s successful acquisition.</li>
                             <li>Led team of engineers to build an AI-native platform enabling one-click clinic creation.</li>
                             <li>Optimized API integrations and infrastructure, reducing server costs by 20%.</li>
                             <li>Engineered clinic creation algorithm, cutting generation time from 5 min to 1 min.</li>
@@ -85,7 +85,7 @@ export default function Experience() {
                             </div>
                         </div>
                         <ul className="job-responsibilities">
-                            <li>Restored Promethean boards and Chromeboxes into classrooms, promoting effective use of technology for teaching and learning. Increasing affectiveness in the classroom.</li>
+                            <li>Restored Promethean boards and Chromeboxes into classrooms, promoting effective use of technology for teaching and learning. Increasing effectiveness in the classroom.</li>
                             <li>Created comprehensive training materials for staff to facilitate the adoption of new technologies. Reducing service tickets by 30%.</li>
                             <li>Refurbished Mac computers and Chromebooks, ensuring optimal performance and extending device lifespans. Reducing costs on new devices.</li>
                         </ul>
