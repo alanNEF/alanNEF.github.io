@@ -15,7 +15,7 @@ A modern personal website built with React, Next.js, and Tailwind CSS.
 - **Framework**: Next.js 14 with App Router
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
-- **Deployment**: Vercel (recommended)
+- **Deployment**: GitHub Pages
 
 ## Getting Started
 
